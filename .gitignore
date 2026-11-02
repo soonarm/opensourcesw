@@ -1,0 +1,56 @@
+# 인증정보 및 환경설정
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# 개인정보 및 로컬 설정
+*.local
+*.user
+.vscode/
+.idea/
+
+# Python 캐시 및 가상환경
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# 실행 중 생성되는 파일, 캐시, 로그
+*.log
+logs/
+cache/
+.cache/
+tmp/
+temp/
+*.tmp
+*.swp
+
+# 테스트 산출물 및 이미지
+test-output/
+test-results/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# 대용량 모델 및 데이터 파일
+models/
+checkpoints/
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.pkl
+*.h5
+*.zip
+*.tar
+*.tar.gz
